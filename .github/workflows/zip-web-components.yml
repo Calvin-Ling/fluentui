@@ -20,7 +20,7 @@ jobs:
           zip -r output/fluentui-web-components.zip packages/web-components
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: fluentui-web-components
           path: output/fluentui-web-components.zip
